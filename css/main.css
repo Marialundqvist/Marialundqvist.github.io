@@ -1,13 +1,21 @@
+html {
+  min-height: 100%;
+  overflow: auto;
+}
 
   
   body {
     background-color: white;
+    background: url(../img/bakgrund.png) 100% ;
+    background-repeat: no-repeat;
+    min-height: 100%;
+      background-size: cover;
+  
     
   }
 
 .container-fluid{
-    background: url(../img/bakgrund.png) 100% ;
-    background-repeat: no-repeat;
+   
     
 
 }
@@ -29,7 +37,7 @@
     margin-left: auto;
     margin-right: auto;
    z-index: 2;
-   margin-top: 70px;
+  
   
   
   }
@@ -53,8 +61,9 @@
   display: block;
     margin-left: auto;
     margin-right: auto; 
-    width: 70%;
-    margin-top: 20px;
+    width: 90%;
+    margin-top: 90px;
+    text-align: center;
 }
 
 .skills{
@@ -63,18 +72,26 @@
     z-index: 1;
   padding: 10px;
     width: 90%;
-    margin-top: 20px;
+    margin-top: 40px;
     display: block;
     margin-left: auto;
     margin-right: auto;  
+    border-radius: 7px;
 }
 
 .glyphicon{
     font-size: 30px;
-    color: black;
-    float: right;
-    margin-top: 5px;
+    color: #ffba7f;
+    float: left;
+    width: 80%;
+    
+    
+    
 
 }
+.text{
+  float: right;
+  width:80%;
+float:right;
 
-
+}
