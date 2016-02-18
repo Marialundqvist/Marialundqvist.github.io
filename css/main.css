@@ -45,7 +45,6 @@ html {
   position: fixed;
     left: 0;
     top: 0;
-    
     width:100%;
    opacity: 0.85;
    z-index: 3;
@@ -66,7 +65,7 @@ html {
     text-align: center;
 }
 
-.skills{
+.box{
   background-color: #ffffff;
     opacity: 0.85;
     z-index: 1;
@@ -77,21 +76,74 @@ html {
     margin-left: auto;
     margin-right: auto;  
     border-radius: 7px;
+   
+  
 }
 
 .glyphicon{
     font-size: 30px;
     color: #ffba7f;
-    float: left;
-    width: 80%;
-    
-    
-    
 
 }
-.text{
-  float: right;
-  width:80%;
-float:right;
 
+
+.skills{
+  margin-top: 50px;
+}
+
+.kontakttext{
+  text-align: center;
+  color: black;
+
+}
+
+.kontakt{
+
+  background-color: #ffffff;
+    opacity: 0.85;
+    z-index: 1;
+  padding: 10px;
+    width: 90%;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    border-radius: 7px;
+    text-align: center;
+}
+
+a{
+   text-decoration:none;
+   color: black; 
+  
+}
+
+a:hover{
+  text-decoration:none;
+   color: black; 
+}
+
+.email{
+  float left;
+
+}
+
+.profil{
+  float: right;
+}
+
+
+
+.icon{
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px 0px 0px 0px;
+  margin-right: 10px;
+  width: 40px; 
+}
+
+.text{
+  display: inline-block;
+  width: 60%;
+ 
 }
