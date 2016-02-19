@@ -1,149 +1,134 @@
 html {
-  min-height: 100%;
-  overflow: auto;
+    min-height: 100%;
+    overflow: auto;
 }
 
-  
-  body {
+body {
     background-color: white;
-    background: url(../img/bakgrund.png) 100% ;
+    background: url(../img/bakgrund.png) 100%;
     background-repeat: no-repeat;
     min-height: 100%;
-      background-size: cover;
-  
-    
-  }
-
-.container-fluid{
-   
-    
-
+    background-size: cover;
 }
 
- li{
-  position: right;
-
- } 
- 
-
+li {
+    position: right;
+}
 
 .circular {
-  width: 210px;
-  height: 200px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
-  display: block;
+    width: 210px;
+    height: 200px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-   z-index: 2;
-  
-  
-  
-  }
-.navbar{
-  position: fixed;
-    left: 0;
-    top: 0;
-    width:100%;
-   opacity: 0.85;
-   z-index: 3;
-
-
+    z-index: 2;
 }
 
-.jumbotron{
-  background-color: #ffffff;
-    opacity: 0.85;
-    z-index: 1;
-  padding: 10px;
-  display: block;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 90%;
-    margin-top: 90px;
-    text-align: center;
+.navbar {
+    border-radius: 0px 0px 7px 7px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
-.box{
-  background-color: #ffffff;
-    opacity: 0.85;
+.jumbotron {
+    background-color: #ffffff;
     z-index: 1;
-  padding: 10px;
-    width: 90%;
-    margin-top: 40px;
+    padding: 10px;
     display: block;
     margin-left: auto;
-    margin-right: auto;  
-    border-radius: 7px;
-   
-  
+    margin-right: auto;
+    width: 93%;
+    margin-top: 80px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
-.glyphicon{
+.box {
+    background-color: #ffffff;
+    z-index: 1;
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.glyphicon {
     font-size: 30px;
     color: #ffba7f;
-
 }
 
-
-.skills{
-  margin-top: 50px;
+.marginrow {
+    margin-top: 50px;
 }
 
-.kontakttext{
-  text-align: center;
-  color: black;
-
-}
-
-.kontakt{
-
-  background-color: #ffffff;
-    opacity: 0.85;
+.kontakt {
+    background-color: #ffffff;
     z-index: 1;
-  padding: 10px;
+    padding: 10px;
     width: 90%;
-    margin-top: 40px;
+    margin-bottom: 70px;
     display: block;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
     border-radius: 7px;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
-a{
-   text-decoration:none;
-   color: black; 
-  
+a {
+    text-decoration: none;
+    color: black;
 }
 
-a:hover{
-  text-decoration:none;
-   color: black; 
+a:hover {
+    text-decoration: none;
+    color: black;
 }
 
-.email{
-  float left;
-
+.email {
+    float left;
 }
 
-.profil{
-  float: right;
+.profil {
+    float: right;
 }
 
-
-
-.icon{
-  display: inline-block;
-  vertical-align: top;
-  padding: 6px 0px 0px 0px;
-  margin-right: 10px;
-  width: 40px; 
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    padding: 6px 0px 0px 0px;
+    margin-right: 10px;
+    width: 40px;
 }
 
-.text{
-  display: inline-block;
-  width: 60%;
- 
+.text {
+    display: inline-block;
+    width: 60%;
+}
+
+.bild {
+    width: 100%;
+}
+
+#om {
+    padding-top: 50px
+}
+
+#fardigheter {
+    padding-top: 50px
+}
+
+#portfolio {
+    padding-top: 50px
+}
+
+#kontakt {
+    padding-top: 50px
 }

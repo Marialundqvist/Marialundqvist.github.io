@@ -1,131 +1,164 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Maria Lundqvist</title>
-	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+   <head>
+      <title>Maria Lundqvist</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
       <!-- Optional theme -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
       <!-- Latest compiled and minified JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
       <link rel="stylesheet" type="text/css" href="css/main.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta charset="utf-8">
-</head>
-<body>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-12">
-			<nav class="navbar navbar-default">
-			  	<ul class="nav navbar-nav">
-			  	<li role="presentation"><a href="index.html">Hem </a></li>
-			        <li role="presentation"><a href="#om">Om </a></li>
-			         <li role="presentation" ><a href="#fardigheter">Färdigheter </a></li>
-			        <li role="presentation" ><a href="#portfolio">Portfolio </a></li>
-			        <li role="presentation" ><a href="#kontakt">Kontakt</a></li>
-
-			     </ul>
-			</nav>
-		</div>
-
-				
-	</div>
-				<section id="om" class="title-section">
-				<div class="jumbotron">
-				<img src="img/profilbild.png" class="circular" alt="Profilbild">
-				<h1>Webbutvecklare</h1><br>
-					<p>Hej jag heter <strong>Maria Lundqvist</strong> och jag läser Webbdesignprogrammet på Högskolan i Halmstad. Webbutveckling är något jag brinner för och jag tycker både frontend- och backend- utveckling är väldigt intressant. Att få kombinera mitt intresse för design och programmering i yrkeslivet är något jag drömmer om. </p>
-				</div>
-				</section>
-	<section id="fardigheter">			
-	<div class="box">
-	
-		<div class="row">
-			
-			<div class="col-sm-4" >
-				<div class="icon"><span  class="glyphicon glyphicon-picture" aria-hidden="true"></span></div>
-				<div class="text"><h4>Adobe Creative Suite</h4>
-				<p>Mycket goda kunskaper i programmen Photoshop, Illustrator, InDesign, Flash, Dreamweaver och Premiere Pro.</p></div>
-			</div>
-
-			
-				
-			<div class="col-sm-4" >
-				<div class="icon" ><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></div>
-			
-				<div class="text"><h4>Webbdesign</h4>
-				<p>Mycket goda kunskaper i att bygga upp webbsidor från grunden med språken HTML5 & CSS3. Responsivitet är något jag ser som en självklarhet.</p></div>
-			</div>
-		
-
-			<div class="col-sm-4" >
-				<div class="icon"><span class="glyphicon glyphicon-hdd" aria-hidden="true"></span></div>
-			
-				<div class="text"><h4>Databasdesign</h4>
-				<p>Mycket goda kunskaper av databasdesign och av språket SQL. Jag är bekant med databashanteringsprogrammen MySQL och phpMyAdmin.</p></div>
-			
-			</div>
-		</div>	
-		
-		<div class="row">
-		<div class="skills">
-			
-			<div class="col-sm-4">
-				<div class="icon"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></div>
-				<div class="text"><h4>JavaScript</h4>
-				<p>Har kunskaper i det prototyp-baserade skriptspråket JavaScript.</p></div>
-
-			</div>
-				
-			<div class="col-sm-4">
-			<div class="icon"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span></div>
-			
-			<div class="text"><h4>jQuery</h4>
-				<p>Mycket goda kunskaper i programmen Photoshop, Illustrator, InDesign, Flash, Dreamweaver och Premiere Pro.</p></div>
-			</div>
-		
-
-			<div class="col-sm-4">
-			<div class="icon"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></div>
-			
-				<div class="text"><h4>PHP</h4>
-				<p>Goda kunskaper i skriptspråket PHP, som används för att driva webbsidor med dynamiskt innehåll. </p></div>
-			</div>
-		</div>	
-		</div>	
-	</div>
-	</section>	
-
-	<div class="box">
-	<p>portfolio</p>
-		
-	</div>	
-<section id="kontakt">	
-	
-	<div class="kontakt">
-		<h3>Vill du komma i kontakt med mig?</h3>
-
-		<div class="row">
-				
-				<div  class="col-sm-6" class="email"> 
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-
-					<p>E-mail: <br>marialundqvists@gmail.com</p>
-	
-				</div>
-
-				<div class="col-sm-6" class="profil">
-					<span class="glyphicon glyphicon-user" aria-hidden="true"></span><br>
-					<a href="https://se.linkedin.com/in/maria-lundqvist-0a342010b" target="_blank">LinkedIn:<br> marialundqvist</a>
-	
-				</div>
-		
-		
-		</div>
-	
-	</div>	
-	</section>			
-</div>
-</body>
+   </head>
+   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>                        
+               </button>
+               <a class="navbar-brand" href="index.html">Maria Lundqvist</a>
+            </div>
+            <div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                     <li><a href="#om">Om</a></li>
+                     <li><a href="#fardigheter">Färdigheter</a></li>
+                     <li><a href="#portfolio">Portfolio</a></li>
+                     <li><a href="#kontakt">Kontakt</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!--<div class="row">
+         <div class="col-sm-12">
+         	<nav class="navbar navbar-default navbar-fixed-top">
+         	  	<ul class="nav navbar-nav">
+         	  	<li role="presentation"><a href="index.html">Hem </a></li>
+         	        <li role="presentation"><a href="#om">Om </a></li>
+         	         <li role="presentation" ><a href="#fardigheter">Färdigheter </a></li>
+         	        <li role="presentation" ><a href="#portfolio">Portfolio </a></li>
+         	        <li role="presentation" ><a href="#kontakt">Kontakt</a></li>
+         
+         	     </ul>
+         	</nav>
+         </div>
+         
+         		
+         </div>-->
+      <section id="om" class="container-fluid">
+         <div class="jumbotron">
+            <img src="img/profilbild.png" class="circular" alt="Profilbild">
+            <h1>Webbutvecklare</h1>
+            <br>
+            <p>Hej jag heter <b>Maria Lundqvist</b> och jag läser Webbdesignprogrammet på Högskolan i Halmstad. Webbutveckling är något jag brinner för och jag tycker både frontend- och backend- utveckling är väldigt intressant. Att få kombinera mitt intresse för design och programmering i yrkeslivet är något jag drömmer om. </p>
+         </div>
+      </section>
+      <section id="fardigheter">
+         <div class="box">
+            <div class="row">
+               <div class="col-sm-4" >
+                  <div class="icon"><span  class="glyphicon glyphicon-picture" aria-hidden="true"></span></div>
+                  <div class="text">
+                     <h4>Adobe Creative Suite</h4>
+                     <p>Mycket goda kunskaper i programmen Photoshop, Illustrator, InDesign, Flash, Dreamweaver och Premiere Pro.</p>
+                  </div>
+               </div>
+               <div class="col-sm-4" >
+                  <div class="icon" ><span class="glyphicon glyphicon-edit" aria-hidden="true"></span></div>
+                  <div class="text">
+                     <h4>Webbdesign</h4>
+                     <p>Mycket goda kunskaper i att bygga upp webbsidor från grunden med språken HTML5 & CSS3. Responsivitet är något jag ser som en självklarhet.</p>
+                  </div>
+               </div>
+               <div class="col-sm-4" >
+                  <div class="icon"><span class="glyphicon glyphicon-hdd" aria-hidden="true"></span></div>
+                  <div class="text">
+                     <h4>Databasdesign</h4>
+                     <p>Mycket goda kunskaper av databasdesign och av språket SQL. Jag är bekant med databashanteringsprogrammen MySQL och phpMyAdmin.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="marginrow">
+                  <div class="col-sm-4">
+                     <div class="icon"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span></div>
+                     <div class="text">
+                        <h4>JavaScript</h4>
+                        <p>Har kunskaper i det prototyp-baserade skriptspråket JavaScript.</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="icon"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span></div>
+                     <div class="text">
+                        <h4>jQuery</h4>
+                        <p>Mycket goda kunskaper i programmen Photoshop, Illustrator, InDesign, Flash, Dreamweaver och Premiere Pro.</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="icon"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></div>
+                     <div class="text">
+                        <h4>PHP</h4>
+                        <p>Goda kunskaper i skriptspråket PHP, som används för att driva webbsidor med dynamiskt innehåll. </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="portfolio">
+         <div class="box">
+            <div class="row">
+               <div class="col-sm-6">
+                  <h3>KorridorSnack</h3>
+               </div>
+               <div class="col-sm-6">
+                  <img  class="bild" src="img/korridorsnack.png" alt="KorridorSnack">
+               </div>
+            </div>
+            <div class="row">
+               <div class="marginrow">
+                  <div class="col-sm-6">
+                     <h3>FanBox</h3>
+                  </div>
+                  <div class="col-sm-6">
+                     <img  class="bild" src="img/fanbox.png" alt="FanBox">
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="marginrow">
+                  <div class="col-sm-6">
+                     <h3>Törstig Vampyr</h3>
+                  </div>
+                  <div class="col-sm-6">
+                     <img  class="bild" src="img/spel.png" alt="Spel">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="kontakt">
+         <div class="kontakt">
+            <h3>Vill du komma i kontakt med mig?</h3>
+            <div class="row">
+               <div  class="col-sm-6" class="email">
+                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                  <p>E-mail: <br>marialundqvists@gmail.com</p>
+               </div>
+               <div class="col-sm-6" class="profil">
+                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br>
+                  <a href="https://se.linkedin.com/in/maria-lundqvist-0a342010b" target="_blank">LinkedIn:<br> marialundqvist</a>
+               </div>
+            </div>
+         </div>
+      </section>
+      </div>
+   </body>
 </html>
