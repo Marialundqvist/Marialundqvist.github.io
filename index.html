@@ -15,53 +15,39 @@
    </head>
    <body data-spy="scroll" data-target=".navbar" data-offset="50">
       <nav class="navbar navbar-default navbar-fixed-top">
-         <div class="container-fluid">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>                        
-               </button>
-               <a class="navbar-brand" href="index.html">Maria Lundqvist</a>
-            </div>
-            <div>
-               <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav">
-                     <li><a href="#om">Om</a></li>
-                     <li><a href="#fardigheter">Färdigheter</a></li>
-                     <li><a href="#portfolio">Portfolio</a></li>
-                     <li><a href="#kontakt">Kontakt</a></li>
-                  </ul>
-               </div>
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+            </button>
+            <a class="navbar-brand" href="index.html">Maria Lundqvist</a>
+         </div>
+         <div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav">
+                  <li><a href="#om">Om</a></li>
+                  <li><a href="#fardigheter">Färdigheter</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#kontakt">Kontakt</a></li>
+               </ul>
             </div>
          </div>
       </nav>
-      <!--<div class="row">
-         <div class="col-sm-12">
-         	<nav class="navbar navbar-default navbar-fixed-top">
-         	  	<ul class="nav navbar-nav">
-         	  	<li role="presentation"><a href="index.html">Hem </a></li>
-         	        <li role="presentation"><a href="#om">Om </a></li>
-         	         <li role="presentation" ><a href="#fardigheter">Färdigheter </a></li>
-         	        <li role="presentation" ><a href="#portfolio">Portfolio </a></li>
-         	        <li role="presentation" ><a href="#kontakt">Kontakt</a></li>
-         
-         	     </ul>
-         	</nav>
-         </div>
-         
-         		
-         </div>-->
-      <section id="om" class="container-fluid">
-         <div class="jumbotron">
-            <img src="img/profilbild.png" class="circular" alt="Profilbild">
-            <h1>Webbutvecklare</h1>
-            <br>
-            <p>Hej jag heter <b>Maria Lundqvist</b> och jag läser Webbdesignprogrammet på Högskolan i Halmstad. Webbutveckling är något jag brinner för och jag tycker både frontend- och backend- utveckling är väldigt intressant. Att få kombinera mitt intresse för design och programmering i yrkeslivet är något jag drömmer om. </p>
-         </div>
-      </section>
+      <div class="container-fluid">
+         <section id="om" >
+            <div class="jumbotron">
+               <img src="img/profilbild.png" class="circular" alt="Profilbild">
+               <h1>Webbutvecklare</h1>
+               <br>
+               <p>Hej jag heter <b>Maria Lundqvist</b> och jag läser Webbdesignprogrammet på Högskolan i Halmstad. Webbutveckling är något jag brinner för och jag tycker både frontend- och backend- utveckling är väldigt intressant. Att få kombinera mitt intresse för design och programmering i yrkeslivet är något jag drömmer om. </p>
+            </div>
+         </section>
+      </div>
       <section id="fardigheter">
          <div class="box">
+            <h2> Färdigheter</h2>
+            <br>
             <div class="row">
                <div class="col-sm-4" >
                   <div class="icon"><span  class="glyphicon glyphicon-picture" aria-hidden="true"></span></div>
@@ -98,14 +84,14 @@
                      <div class="icon"><span class="glyphicon glyphicon-certificate" aria-hidden="true"></span></div>
                      <div class="text">
                         <h4>jQuery</h4>
-                        <p>Mycket goda kunskaper i programmen Photoshop, Illustrator, InDesign, Flash, Dreamweaver och Premiere Pro.</p>
+                        <p>Har kunskaper i JavaScript-biblioteket jQuery.</p>
                      </div>
                   </div>
                   <div class="col-sm-4">
                      <div class="icon"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span></div>
                      <div class="text">
                         <h4>PHP</h4>
-                        <p>Goda kunskaper i skriptspråket PHP, som används för att driva webbsidor med dynamiskt innehåll. </p>
+                        <p>Har kunskaper i skriptspråket PHP, som används för att driva webbsidor med dynamiskt innehåll. </p>
                      </div>
                   </div>
                </div>
@@ -114,9 +100,32 @@
       </section>
       <section id="portfolio">
          <div class="box">
+            <h2> Portfolio</h2>
+            <br>
             <div class="row">
                <div class="col-sm-6">
                   <h3>KorridorSnack</h3>
+                  <b>Om</b>
+                  <p>KorridorSnack är en dynamisk webbsida, som är utvecklat som ett forum där studenter ska kunna komma i kontakt med andra studenter för att kunna skriva skolrelaterade inlägg.</p>
+                  <b>Lärdomar</b>
+                  <p>Jag har lärt mig att jobba i MVC ramverket Laravel vid utvecklandet av webbsidan.Ytterligare en lärdom är att skapa/designa en databas i MySQL.</p>
+                  <b>Använda tekniker</b>
+                  <ul>
+                     <li>
+                        Tillämpade den agila utvecklingsmetoden Scrum.
+                     </li>
+                     <li>
+                        Responsiv med hjälp av Bootstrap och Media Queries.
+                     </li>
+                     <li>
+                        PHP för att den dynamiska webbsidan ska kunna kommunisera med databasen. 
+                     </li>
+                     <li>
+                        Design i Photoshop.
+                     </li>
+                  </ul>
+                
+                  <a href="https://github.com/Marialundqvist/KorridorSnack1.git" class="btn btn-ghost btn-accent btn-small" target="_blank">Se koden på Github</a>
                </div>
                <div class="col-sm-6">
                   <img  class="bild" src="img/korridorsnack.png" alt="KorridorSnack">
@@ -126,6 +135,27 @@
                <div class="marginrow">
                   <div class="col-sm-6">
                      <h3>FanBox</h3>
+                     <b>Om</b>
+                     <p>FanBox är en webbshop som säljer boxar inneållande fanprylar kopplat till tv-serier.</p>
+                     <b>Lärdomar</b>
+                     <p>Jag har lärt mig att skapa/designa en databas i MySQL ur ett e-handels perspektiv. Och skapa en fullt fungerande webbshop som erbjuder allt som behövs för att genomföra ett köp. Så som kundkorg, betalningsfunktion, orderhistorik.</p>
+                     <b>Använda tekniker</b>
+                     <ul>
+                        <li>
+                           JavaScript och jQuery.
+                        </li>
+                        <li>
+                           Betallösning med Paypal API.
+                        </li>
+                        <li>
+                           PHP för att kundkorgen ska kunna kommunisera med databasen.
+                        </li>
+                        <li>
+                           Design i Photoshop.
+                        </li>
+                     </ul>
+                     
+                     <a href="https://github.com/Marialundqvist/FanBox.git" class="btn btn-ghost btn-accent btn-small" target="_blank">Se koden på Github</a>
                   </div>
                   <div class="col-sm-6">
                      <img  class="bild" src="img/fanbox.png" alt="FanBox">
@@ -136,6 +166,34 @@
                <div class="marginrow">
                   <div class="col-sm-6">
                      <h3>Törstig Vampyr</h3>
+                     <b>Om</b>
+                     <p>Törsdig Vampyr är ett spel som har skapats i Flash. Dataspelet går ut på att spelaren är en vampyr som heter Dracula som är väldigt
+                        törstig, och med hjälp av piltangenterna ska spelaren fånga fallande bloddroppar och få päng. Det gäller
+                        även att undvika fallande vitlökar, då de gör så att Dracula förlorar liv om han träffas.
+                     </p>
+                     <b>Lärdomar</b>
+                     <p>Jag har lärt mig att designa och koda upp ett spel i Flash.</p>
+                     <b>Använda tekniker</b>
+                     <ul>
+                        <li>
+                           Highscoore-lista.
+                        </li>
+                        <li>
+                           Slumpvalsfunktion.
+                        </li>
+                        <li>
+                           Interaktion genom användande av piltangenter/mus.
+                        </li>
+                        <li>Ljud - bakgrundsljud, feedback, upplevelse.</li>
+                        <li>
+                           Informativ text om spelet genom Hjälp och Instruktioner.
+                        </li>
+                        <li>
+                           Design i Photoshop.
+                        </li>
+                     </ul>
+                    
+                     <a href="https://github.com/Marialundqvist/T-rsdigVampyr.git" class="btn btn-ghost btn-accent btn-small" target="_blank">Se koden på Github</a>
                   </div>
                   <div class="col-sm-6">
                      <img  class="bild" src="img/spel.png" alt="Spel">
@@ -146,19 +204,21 @@
       </section>
       <section id="kontakt">
          <div class="kontakt">
-            <h3>Vill du komma i kontakt med mig?</h3>
-            <div class="row">
-               <div  class="col-sm-6" class="email">
-                  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                  <p>E-mail: <br>marialundqvists@gmail.com</p>
-               </div>
-               <div class="col-sm-6" class="profil">
-                  <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br>
-                  <a href="https://se.linkedin.com/in/maria-lundqvist-0a342010b" target="_blank">LinkedIn:<br> marialundqvist</a>
+            <h2> Kontakt</h2>
+            <br>
+            <div class="symboler">
+               <div class="row">
+                  <div  class="col-sm-6">
+                     <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                     <p>E-mail: <br>marialundqvists@gmail.com</p>
+                  </div>
+                  <div class="col-sm-6">
+                     <span class="glyphicon glyphicon-user" aria-hidden="true"></span><br>
+                     <a href="https://se.linkedin.com/in/maria-lundqvist-0a342010b" target="_blank">LinkedIn:<br> marialundqvist</a>
+                  </div>
                </div>
             </div>
          </div>
-      </section>
-      </div>
+      </section> 
    </body>
 </html>
