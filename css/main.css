@@ -11,6 +11,19 @@ body {
 li {
     position: right;
 }
+h1{
+    font-size: 5.9vw;
+}
+h2{
+    font-size: 4.5vh;
+}
+h3{
+    font-size: 4vmin;
+}
+h4{
+    font-size: 3.5vmin;
+}
+
 
 .container-fluid {
     background: url(../img/wallpaper.jpg) 100%;
